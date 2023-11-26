@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all products - redstore</title>
+    <link rel="stylesheet"  href="cssfile.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!---------------------------------header section--------------------------------->
+   
+    <div class="container">
+        
+        <div class="navbar">
+        <div class="logo">
+            <img src="photoss/logo1.jpg" width="125px">
+        </div>
+        <nav>
+            <ul >
+                <li><a href="htmlfile.html">home</a></li>
+                <li><a href="product.html">products</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">account</a></li>
+            </ul>
+        </nav>
+        <img src="photoss/cart.jpg" width="30px" height="30px">
+    </div>
+    </div>
+    <!------------------------feature product1--------------------------------->
+    <!------------------------single product details--------------------------------->
+    
+    <div class="small-container single-product">
+<div class="row">
+    <div class="col-2">
+        <img src="photoss/product4.jpg" width="100%" id="product-img">
+
+<!------------------------small imgs--------------------------------->
+    
+<div class="small-img-row">
+    <div class="small-img-col">
+        <img src="photoss/product5.jpg" width="100%" class="small-img">
+    </div>
+    <div class="small-img-col">
+        <img src="photoss/product6.jpg" width="100%" class="small-img">
+    </div>
+    <div class="small-img-col">
+        <img src="photoss/product7.jpg" width="100%" class="small-img">
+    </div>
+    <div class="small-img-col">
+        <img src="photoss/product4.jpg" width="100%" class="small-img">
+    </div>
+    
+</div>
+
+
+    </div>
+    <div class="col-2">
+        <p>home / t-shirt</p>
+        <h1>Red Printed T-Shirt by HRX</h1
+        <h4>$50.00</h4>
+        <select>
+            <option>select size</option>
+            <option>XXL</option>
+            <option>XL</option>
+            <option>LARGE</option>
+            <option>Medium</option>
+            <option>Small</option>
+        </select>
+        <input type="number" value="1"><br>
+        <a href="" class="btn">add to cart</a>
+
+        <h3>product details</h3><br>
+        <p style="font-style:arial;">Give your summer wardrobe a style upgrade with the HEX
+            Men's Active T-shirt. Team it with a apair of shorts for your morning workout or a denims for 
+            an evening out with the guys.
+        </p>
+    </div>
+</div>
+    </div>
+
+<!------------------------single product details--------------------------------->
+
+
+    <div>
+    <div class="row row-2">
+        <h2>related products</h2>
+         <p><a href="product2.html" class="btn"> view more &#8594;</a></p>
+    </div>
+    
+    <div class="product">
+        <img src="photoss/menn3.jpg" alt="product 1">
+        <h4>red t shirt</h4>
+        <p>$50.00</p>
+    </div>
+
+    <div class="product">
+        <img src="photoss/menn4.jpg" alt="product 2">
+        <h4>red t shirt</h4>
+        <p>$50.00</p>
+    </div>
+
+
+    <div class="product">
+        <img src="photoss/menn5.jpg" class="black">
+        <h4>red t shirt</h4>
+        <p>$50.00</p>
+    </div>
+    <div class="page-btn">
+       
+        <span><a href="product2.html">1</a></span> 
+        <span><a href="product3.html">2</a></span>
+        <span><a href="index.html">3</a></span>
+        <span><a href="product1.html">4</a></span>
+        <span>&#8594;</span>
+    </div>
+</div>
+    <br>
+    <br>
+    <!------------------------feature product-1--------------------------------->
+    
+    
+    
+
+<!------------------------footer------------------------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>download app for andriod and ios for the latest</p>
+                <div class="app-logo">
+                <img src="photoss/brand9.png" alt="">
+                <img src="photoss/brand6.jpg" alt="">
+            </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="photoss/logo1.jpg">
+                <p>download app for andriod and ios for the latest</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Download our App</h3>
+                <ul>
+                    <li>coupons</li>
+                    <li>blog post</li>
+                    <li>return policy</li>
+                    <li>join</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>follow  us on </h3>
+                <ul>
+                    <li>facebook </li>
+                    <li>instagram</li>
+                    <li>youtube</li>
+                    <li>twitter</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">copyright 2023 - easy tutorials</p>
+    </div>
+</div>
+<!------------------------footer------------------------------->
+<script>
+    var ProductImg = document.getElementById("product-img");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick = function()
+    {
+        ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function()
+    {
+        ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function()
+    {
+        ProductImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function()
+    {
+        ProductImg.src = SmallImg[3].src;
+    }
+    
+</script>
+
+
+</body>
+</html>
